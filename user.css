@@ -1,0 +1,127 @@
+input {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+  }
+
+input[class="input1"] {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center; 
+}
+  
+  label{       
+   color: #f0390f; 
+   font-weight:bold;
+   font-size: 15px;
+  }
+  h2{
+   font-weight:bold;
+   color: #3e0bce;
+   margin: 20px 0;
+  
+}
+th{
+    background: #3e0bce;
+    color:#fff;
+    text-align: center;
+}
+.mytable{
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 100%;
+   text-align :center;
+   font-family: Arial, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+    text-align: center;
+  }
+
+input[type="submit"] {
+    background-color: #3e0bce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+/* Style the select element */
+select[name='activity_status'] {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: #3e0bce;
+    margin-left: 7px;
+}
+
+/* Style the options within the select element */
+select[name='activity_status'] option {
+    background-color: #fff;
+    color: #f0390f;
+    font-size: 14px;
+}
+/* Center the container on the screen */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Style the form inside the container */
+.form-container form {
+    text-align: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%; /* Adjust the width as needed */
+}
+
+.form-container h2 {
+    font-weight: bold;
+    color: #3e0bce;
+    margin: 0 0 20px;
+}
+
+/* Center the container on the screen */
+.container {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the table within the container */
+table {
+    border: 1px solid #3e0bce;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background: #3e0bce;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

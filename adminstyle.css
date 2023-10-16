@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.modal {
+    justify-content:center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content{
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    background-color: white;
+    width: 20%;
+    height: 65%;
+    margin: 100px auto;
+    padding: 20px;
+}
+input {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  .modal-content h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #3e0bce;
+  }
+   .modal-content label{       
+   color: #f0390f; 
+   font-weight:bold;
+   font-size: 15px;
+  }
+
+  .modal-delete{
+    border-radius: 10px;
+    align-items:center;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: 380px  800px;
+    padding: 20px;
+  }
+  .modal-delete h2{
+    font-size: 30px;
+    text-align: center;
+    color: #3e0bce;
+  }
+  .modal-delete button[type="submit"]{
+    text-align: center;
+    justify-content: center;
+    background-color: #ff0000; 
+    color: #fff; 
+    padding: 5px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left: 63px;
+}
+.modal-delete p {
+    margin-left: 10px;
+}
+.modal-delete button[type="button"]{
+    text-align: center;
+    justify-content: center;
+    background-color: #ff0000; 
+    color: #fff; 
+    padding: 5px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+   margin-left: 7px;
+}
+.modal-delete button[type="submit"]:hover {
+    background-color: #ff3333;
+}
+    th{
+      background: #3e0bce;
+      color:#fff;
+    }
+
+.container h1{
+    color: #f0390f;
+    font-weight: bolder;
+    margin-left: 450px;
+}
+span{
+    color: #007BFF;
+}
+  .mytable{  
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 120%;
+   text-align :center;
+   font-family: Arial, sans-serif;
+   margin-left: -150px;  }
+
+  .mytable th, .mytable td{
+    padding: 10px;
+  }
+  tr:nth-child(even) {
+  background-color: #D6EEEE;
+  }
+  .action-button {
+    text-align: center;
+    justify-content: center;
+    background-color: #3e0bce; 
+    color: #fff; 
+    padding: 5px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin: 0;
+}
+
+.action-button:hover {
+    background-color: #0056b3; 
+}
+
+
+  /* .announcement-form */
+
+  .announcement-form{
+    display: flex;
+    width: 20%;
+    height: 60%;
+    justify-content: center;
+    background-color: #D6EEEE;
+    margin:100px ;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .announcement-form h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .announcement-form #title{
+    font-size: 20px;
+  }
+  
+.announcement-form label {
+    font-weight: bold;
+}
+
+.announcement-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.announcement-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+
+.announcement-form input[type="submit"] {
+    background-color: #3e0bce;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    line-height: -200px;
+}
+
+
+.announcement-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.bold-hr {
+    border-top: 3px solid #000;
+
+}
+
+.announcement h2{
+    color: #3e0bce;
+}
+
+/* Style for announcement titles */
+.announcement h3 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for announcement content */
+.announcement p {
+    color: #666;
+}
+
+/* Style for links */
+.announcement a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.announcement a:hover {
+    text-decoration: underline;
+}
+.box{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 10px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -580px;
+    position: relative;
+
+}
+.box h2{
+    color: #f0390f;
+    font-weight: bolder;
+    margin: 5px;
+}
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+  }
+  #piechart{
+    border: #3e0bce solid;
+    width: 1000px;
+    height: 500px;
+  
+  }
+  .pie h1{
+    top: -180px;
+    right: -450px;
+    z-index: -1;
+  }
+  
+  /* Bargraph */
+
+  #chart_div{
+    display: flex;
+    margin-left: 220px;
+    width: 1500px;
+    height: 600px;
+  }

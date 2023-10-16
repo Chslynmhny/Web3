@@ -1,0 +1,130 @@
+.modal {
+    justify-content:center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    background-color: white;
+    width: 20%;
+    height: 65%;
+    margin: 100px auto;
+    padding: 20px;
+ 
+}
+
+input {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+label{       
+ color: #f0390f; 
+ font-weight:bold;
+ font-size: 15px;
+}
+h2{
+ font-weight:bold;
+ color: #3e0bce;
+
+}
+  th{
+    background: #3e0bce;
+    color:#fff;
+  }
+.mytable{
+ border: 1px solid black;
+border-collapse: collapse;
+ width: 100%;
+ text-align :center;
+ font-family: Arial, sans-serif;
+}
+tr:nth-child(even) {
+background-color: #D6EEEE;
+}
+
+
+/* Pie Chart CSS */
+
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+  position: relative;
+}
+#piechart{
+  border: #3e0bce solid;
+
+}
+.pie h1{
+  top: -280px;
+  right: -450px;
+  z-index: -1;
+}
+
+
+/* Bar Graph CSS */
+
+#chart_div {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 500px;
+  position: relative;
+  border: #3e0bce solid;
+
+}
+
+
+/* Announcement CSS */
+
+.announcement-form{
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 500px;
+}
+
+.announcement {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 10px;
+}
+
+.announcement h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.announcement .content {
+  font-size: 16px;
+  color: #666;
+}
+
+.announcement .date {
+  font-size: 14px;
+  color: #999;
+}
+
+.announcement .edit-link,
+.announcement .delete-link {
+  text-decoration: none;
+  color: #007bff;
+  margin-left: 10px;
+}
